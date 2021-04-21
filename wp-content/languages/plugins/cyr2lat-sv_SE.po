@@ -1,0 +1,209 @@
+# Translation of Plugins - Cyr-To-Lat - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-18 16:13:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Cyr-To-Lat - Stable (latest release)\n"
+
+#: src/php/Settings/Converter.php:264
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/php/Settings/Converter.php:261
+msgid "OK"
+msgstr "OK"
+
+#: src/php/Settings/Converter.php:257
+msgid "Are you sure to continue?"
+msgstr "Är du säker på att du vill fortsätta?"
+
+#: src/php/Settings/Converter.php:232
+msgid "Important:"
+msgstr "Viktigt:"
+
+#: src/php/Settings/Tables.php:261
+msgid "Error saving options."
+msgstr "Fel när alternativen skulle sparas."
+
+#: src/php/Settings/Tables.php:260
+msgid "Options saved."
+msgstr "Alternativ sparade."
+
+#: src/php/background-processes/class-post-conversion-process.php:129
+msgid "Cannot rename thumbnail file:"
+msgstr "Kunde inte byta namn på miniatyrfil:"
+
+#: src/php/background-processes/class-post-conversion-process.php:126
+msgid "Thumbnail file renamed:"
+msgstr "Namn bytt på miniatyrfil:"
+
+#: src/php/Settings/Tables.php:179
+msgid "(current)"
+msgstr "(nuvarande)"
+
+#. translators: 1: Wait time in seconds
+#: src/php/class-requirements.php:166
+msgid "Please try again in %d s."
+msgstr "Försök igen om %d sekunder."
+
+#. translators: 1: .user.ini filename
+#: src/php/class-requirements.php:163
+msgid "We have updated settings in %s."
+msgstr "Vi har uppdaterat inställningarna i %s."
+
+#. translators: %d: cron interval
+#: lib/wp-background-processing/class-wp-background-process.php:399
+msgid "Every %d Minutes"
+msgstr "Var %d:e minut"
+
+#: src/php/Settings/Tables.php:134
+msgid "sr_RS Table"
+msgstr "Tabell för sr_RS"
+
+#. translators: 1: Current PHP version number, 2: Cyr To Lat version, 3:
+#. Minimum required PHP version number
+#: src/php/class-requirements.php:121
+msgid "Your server is running PHP version %1$s but Cyr To Lat %2$s requires at least %3$s."
+msgstr "Din server kör PHP-version %1$s men Cyr To Lat %2$s kräver minst %3$s."
+
+#: src/php/Settings/Tables.php:149
+msgid "he_IL Table"
+msgstr "Tabell för he_IL"
+
+#: src/php/background-processes/class-term-conversion-process.php:72
+msgid "Term slug converted:"
+msgstr "Konverterad term-slug:"
+
+#: src/php/background-processes/class-term-conversion-process.php:84
+msgid "Term slugs conversion completed."
+msgstr "Konvertering av term-sluggar är klar."
+
+#: src/php/background-processes/class-post-conversion-process.php:73
+msgid "Post slug converted:"
+msgstr "Konverterad inläggs-slug:"
+
+#: src/php/background-processes/class-post-conversion-process.php:198
+msgid "Post slugs conversion completed."
+msgstr "Konvertering av inläggs-sluggar är klar."
+
+#: src/php/class-converter.php:109
+msgid "Cyr To Lat converts existing post slugs in the background process."
+msgstr "Cyr To Lat konverterar befintliga inläggssluggar i en process som körs i bakgrunden."
+
+#: src/php/class-converter.php:116
+msgid "Cyr To Lat converts existing term slugs in the background process."
+msgstr "Cyr To Lat konverterar befintliga term-sluggar i en process som körs i bakgrunden."
+
+#: src/php/class-converter.php:123
+msgid "Cyr To Lat completed conversion of existing post slugs."
+msgstr "Cyr To Lat har genomfört konverteringen av befintliga inläggs-sluggar."
+
+#: src/php/class-converter.php:130
+msgid "Cyr To Lat completed conversion of existing term slugs."
+msgstr "Cyr To Lat har genomfört konverteringen av befintliga term-sluggar."
+
+#: src/php/class-converter.php:221
+msgid "Post slugs conversion started."
+msgstr "Konverteringen av inläggs-sluggar har inletts."
+
+#: src/php/class-converter.php:210
+msgid "Cyr To Lat has not found existing post slugs for conversion."
+msgstr "Cyr To Lat hittade inga befintliga inläggs-sluggar som behöver konverteras."
+
+#: src/php/class-converter.php:258
+msgid "Term slugs conversion started."
+msgstr "Konverteringen av term-sluggar har inletts."
+
+#: src/php/class-converter.php:260
+msgid "Cyr To Lat started conversion of existing term slugs."
+msgstr "Cyr To Lat har inlett konverteringen av befintliga term-sluggar."
+
+#: src/php/class-converter.php:223
+msgid "Cyr To Lat started conversion of existing post slugs."
+msgstr "Cyr To Lat har inlett konverteringen av befintliga inläggs-sluggar."
+
+#: src/php/class-converter.php:247
+msgid "Cyr To Lat has not found existing term slugs for conversion."
+msgstr "Cyr To Lat hittade inga befintliga term-sluggar som behöver konverteras."
+
+#. Plugin Name of the plugin
+msgid "Cyr-To-Lat"
+msgstr "Cyr-To-Lat"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/cyr2lat/"
+msgstr "https://sv.wordpress.org/plugins/cyr2lat/"
+
+#. Description of the plugin
+msgid "Converts Cyrillic characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
+msgstr "Konverterar kyrilliska bokstäver i sluggen för inlägg och termer till latinska tecken. Användbart för att skapa URL:er som går att läsa. Baserat på ett ursprungligt tillägg av Anton Skorobogatov."
+
+#. Author of the plugin
+msgid "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+msgstr "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/sergeybiryukov/"
+msgstr "https://profiles.wordpress.org/sergeybiryukov/"
+
+#: src/php/Settings/PluginSettingsBase.php:52
+msgid "View Cyr To Lat settings"
+msgstr "Visa inställningar för Cyr To Lat"
+
+#: src/php/Settings/PluginSettingsBase.php:61
+msgid "Settings"
+msgstr "Inställningar"
+
+#: src/php/Settings/Converter.php:186
+msgid "Convert Existing Slugs"
+msgstr "Konvertera befintliga sluggar"
+
+#: src/php/Settings/Tables.php:119
+msgid "ISO9 Table"
+msgstr "ISO9-tabell"
+
+#: src/php/Settings/Tables.php:122
+msgid "bel Table"
+msgstr "Tabell för bel"
+
+#: src/php/Settings/Tables.php:125
+msgid "uk Table"
+msgstr "Tabell för uk"
+
+#: src/php/Settings/Tables.php:128
+msgid "bg_BG Table"
+msgstr "Tabell för bg_BG"
+
+#: src/php/Settings/Tables.php:131
+msgid "mk_MK Table"
+msgstr "Tabell för mk_MK"
+
+#: src/php/Settings/Tables.php:143
+msgid "ka_GE Table"
+msgstr "Tabell för ka_GE"
+
+#: src/php/Settings/Tables.php:146
+msgid "kk Table"
+msgstr "Tabell för kk"
+
+#: src/php/Settings/Converter.php:78 src/php/Settings/Tables.php:87
+msgid "Cyr To Lat"
+msgstr "Cyr To Lat"
+
+#: src/php/Settings/Converter.php:170 src/php/Settings/Tables.php:202
+msgid "Cyr To Lat Plugin Options"
+msgstr "Alternativ för tillägget Cyr To Lat"
+
+#: src/php/Settings/Tables.php:216
+msgid "Your Appreciation"
+msgstr "Din uppskattning"
+
+#: src/php/Settings/Tables.php:221
+msgid "Leave a ★★★★★ plugin review on WordPress.org"
+msgstr "Ge tillägget betyget ★★★★★ på WordPress.org"

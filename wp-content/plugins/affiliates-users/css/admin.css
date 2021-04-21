@@ -1,0 +1,12 @@
+.none {
+	background-color: #ffffe0;
+	border: 1px solid #cc0;
+	padding:1em;
+	margin:1em;	
+}
+.some {
+	background-color: #e0ffe0;
+	border: 1px solid #0c0;
+	padding:1em;
+	margin:1em;
+}

@@ -1,0 +1,578 @@
+# Translation of Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-11 18:43:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release)\n"
+
+#: includes/settings.php:532 includes/settings.php:547
+#: includes/settings.php:562
+msgid "Notice"
+msgstr "Notis"
+
+#: includes/settings.php:409
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/welcome.php:528
+msgid "Sign up"
+msgstr "Registrera"
+
+#: includes/welcome.php:528
+msgid "Don't have an account yet?"
+msgstr "Har du inget konto än?"
+
+#: includes/welcome.php:436
+msgid "Already have an account?"
+msgstr "Har du redan ett konto?"
+
+#: includes/welcome.php:403
+msgid "Create Account"
+msgstr "Skapa konto"
+
+#: includes/settings.php:563 includes/settings.php:564
+#: includes/settings.php:565
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/settings.php:553
+msgid "Log in & Complete setup"
+msgstr "Logga in och slutför inställning"
+
+#: includes/settings.php:538
+msgid "Log in & Configure"
+msgstr "Logga in och konfigurera"
+
+#: includes/settings.php:532 includes/settings.php:533
+#: includes/settings.php:534 includes/settings.php:535
+#: includes/settings.php:547 includes/settings.php:562
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/settings.php:478
+msgid "Cache"
+msgstr "Cache"
+
+#: includes/settings.php:476
+msgid "Miscellaneous Settings"
+msgstr "Övriga inställningar"
+
+#: includes/settings.php:474 includes/settings.php:487
+msgid "App Key"
+msgstr "App-nyckel"
+
+#: includes/settings.php:473 includes/settings.php:486
+msgid "App ID"
+msgstr "App-ID"
+
+#: includes/settings.php:437
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: includes/settings.php:420
+msgid "Cookie Notice & Compliance for GDPR/CCPA"
+msgstr "Cookie Notice & Compliance for GDPR/CCPA"
+
+#: includes/welcome.php:605
+msgid "Skip for now"
+msgstr "Hoppa över just nu"
+
+#: includes/welcome.php:602
+msgid "WordPress Dashboard"
+msgstr "WordPress-adminpanel"
+
+#: includes/welcome.php:599
+msgid "Remind me later"
+msgstr "Påminn mig senare"
+
+#: includes/welcome.php:589
+msgid "Success!"
+msgstr "Lyckades!"
+
+#: includes/welcome.php:436 includes/welcome.php:514
+msgid "Sign in"
+msgstr "Logga in"
+
+#: includes/welcome.php:469 includes/welcome.php:561
+msgid "CVC/CVV"
+msgstr "CVC/CVV"
+
+#: includes/welcome.php:465 includes/welcome.php:557
+msgid "Expiration Date"
+msgstr "Utgångsdatum"
+
+#: includes/welcome.php:461 includes/welcome.php:553
+msgid "Card Number"
+msgstr "Kortnummer"
+
+#: includes/welcome.php:455 includes/welcome.php:547
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/welcome.php:454 includes/welcome.php:546
+msgid "Credit Card"
+msgstr "Kreditkort"
+
+#: includes/welcome.php:448 includes/welcome.php:540
+msgid "/yr"
+msgstr "/år"
+
+#: includes/welcome.php:447 includes/welcome.php:539
+msgid "/mo"
+msgstr "/mån"
+
+#: includes/welcome.php:422
+msgid "Sign Up"
+msgstr "Registrera"
+
+#: includes/welcome.php:414
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+#: includes/welcome.php:411 includes/welcome.php:511
+msgid "Password"
+msgstr "Lösenord"
+
+#: includes/welcome.php:408 includes/welcome.php:508
+msgid "Email address"
+msgstr "E-postadress"
+
+#: includes/welcome.php:372
+msgid "Color of the button text."
+msgstr "Färg för knapptexten."
+
+#: includes/welcome.php:371
+msgid "Color of the heading text."
+msgstr "Färg för rubriktexten."
+
+#: includes/welcome.php:361
+msgid "Center"
+msgstr "Centrerat"
+
+#: includes/welcome.php:360
+msgid "Right"
+msgstr "Höger"
+
+#: includes/welcome.php:359
+msgid "Left"
+msgstr "Vänster"
+
+#: includes/welcome.php:337
+msgid "CCPA"
+msgstr "CCPA"
+
+#: includes/welcome.php:336
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/welcome.php:290
+msgid "Site Name"
+msgstr "Webbplatsnamn"
+
+#: includes/welcome.php:289
+msgid "Site URL"
+msgstr "Webbplatsens URL"
+
+#: includes/welcome.php:254
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: includes/welcome.php:219
+msgid "Link to Privacy Policy page"
+msgstr "Länk till sidan för integritetspolicy"
+
+#: includes/welcome.php:212
+msgid "WP Plugin"
+msgstr "WP-tillägg"
+
+#: includes/welcome.php:36
+msgid "Welcome to Cookie Notice"
+msgstr "Välkommen till Cookie Notice"
+
+#: includes/welcome-api.php:441
+msgid "You have an active subscription for %s"
+msgstr "Du har en aktiv prenumeration för %s"
+
+#: includes/welcome-api.php:224
+msgid "Passwords do not match."
+msgstr "Lösenorden matchar inte."
+
+#: includes/welcome-api.php:71 includes/welcome-api.php:267
+#: includes/welcome-api.php:306 includes/welcome-api.php:354
+#: includes/welcome-api.php:427 includes/welcome-api.php:697
+#: includes/welcome.php:74
+msgid "Unexpected error occurred. Please try again later."
+msgstr "Oväntat fel uppstod. Försök igen senare."
+
+#: includes/welcome-api.php:35 includes/welcome-api.php:38
+#: includes/welcome-api.php:41 includes/welcome-api.php:44
+#: includes/welcome.php:140 includes/welcome.php:150 includes/welcome.php:153
+msgid "You do not have permission to access this page."
+msgstr "Du har inte behörighet att komma åt denna sida."
+
+#. Author of the plugin
+msgid "Hu-manity.co"
+msgstr "Hu-manity.co"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://hu-manity.co/"
+msgstr "https://hu-manity.co/"
+
+#. Plugin Name of the plugin
+msgid "Cookie Notice & Compliance for GDPR / CCPA"
+msgstr "Cookie Notice & Compliance for GDPR / CCPA"
+
+#: includes/settings.php:1003
+msgid "Bar opacity"
+msgstr "Opacitet på list"
+
+#: includes/settings.php:852
+msgid "The amount of time that the cookie should be stored for when the user doesn't accept the notice."
+msgstr "Den tid som cookien ska lagras för när användaren inte accepterar notisen."
+
+#: includes/settings.php:829
+msgid "The amount of time that the cookie should be stored for when user accepts the notice."
+msgstr "Den tid som cookien ska lagras för när användaren accepterar notisen."
+
+#: includes/settings.php:500
+msgid "Rejected expiry"
+msgstr "Utgång för nekande"
+
+#: includes/settings.php:499
+msgid "Accepted expiry"
+msgstr "Utgång för godkännande"
+
+#: includes/settings.php:966
+msgid "Select the buttons style."
+msgstr "Välj knappens stil."
+
+#: includes/settings.php:936
+msgid "Enable to accept the notice on any click on the page."
+msgstr "Aktivera för att acceptera notisen om man gör något klick på sidan."
+
+#: includes/settings.php:925
+msgid "Number of pixels user has to scroll to accept the notice and make it disappear."
+msgstr "Antal pixlar som användaren måste rulla för att acceptera notisen och få det att försvinna."
+
+#: includes/settings.php:922
+msgid "Enable to accept the notice when user scrolls."
+msgstr "Aktivera för att acceptera notisen när användaren rullar."
+
+#: includes/settings.php:911
+msgid "Select the animation style."
+msgstr "Välj stil på animationen."
+
+#: includes/settings.php:890
+msgid "Select location for the notice."
+msgstr "Välj plats för notisen."
+
+#: includes/settings.php:759
+msgid "Select where to redirect user for more information."
+msgstr "Välj vart användaren ska omdirigeras till för mer information."
+
+#: includes/settings.php:700
+msgid "Enter the revoke message."
+msgstr "Ange meddelande för återkallande."
+
+#: includes/settings.php:656
+msgid "The text of the button to refuse the consent."
+msgstr "Text på knappen för att avböja samtycket."
+
+#: includes/settings.php:642
+msgid "The text of the option to accept the notice and make it disappear."
+msgstr "Texten för valet att godkänna notisen och stänga den."
+
+#: includes/settings.php:498
+msgid "On click"
+msgstr "På klick"
+
+#: includes/settings.php:493
+msgid "Refuse consent"
+msgstr "Avvisa samtycke"
+
+#: includes/settings.php:373 includes/settings.php:494
+msgid "Revoke consent"
+msgstr "Återkalla samtycke"
+
+#: includes/settings.php:372
+msgid "You can revoke your consent any time using the Revoke consent button."
+msgstr "Du kan återkalla ditt samtycke när som helst genom att använda knappen återkalla samtycke."
+
+#: includes/settings.php:55
+msgid "Dark"
+msgstr "Mörk"
+
+#: includes/settings.php:54
+msgid "Light"
+msgstr "Ljus"
+
+#: includes/settings.php:806
+msgid "Select the privacy policy link position."
+msgstr "Välj plats för länken till integritetspolicyn."
+
+#: includes/settings.php:74
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/settings.php:747
+msgid "The text of the privacy policy button."
+msgstr "Texten på knappen för integritetspolicyn."
+
+#: includes/settings.php:979
+msgid "Enter additional button CSS classes separated by spaces."
+msgstr "Lägg in extra CSS-klasser för knappen, separerade med mellanslag."
+
+#: includes/settings.php:796
+msgid "Select the privacy policy link target."
+msgstr "Välj vart länken för integritetspolicy ska peka."
+
+#: includes/settings.php:779
+msgid "Synchronize with WordPress Privacy Policy page."
+msgstr "Synkronisera med integritetspolicysidan för WordPress."
+
+#: includes/settings.php:744
+msgid "Enable privacy policy link."
+msgstr "Aktivera länk för integritetspolicy."
+
+#: includes/settings.php:710
+msgid "Select the method for displaying the revoke button - automatic (in the banner) or manual using <code>[cookies_revoke]</code> shortcode."
+msgstr "Välj önskad metod för att visa återkallningsknappen – automatisk (i bannern) eller manuellt med hjälp av kortkoden <code>[cookies_revoke]</code>."
+
+#: includes/settings.php:702
+msgid "The text of the button to revoke the consent."
+msgstr "Text på knappen för att återkalla samtycket."
+
+#: includes/settings.php:697
+msgid "Enable to give to the user the possibility to revoke their consent <i>(requires \"Refuse consent\" option enabled)</i>."
+msgstr "Aktivera att ge användaren möjlighet att återkalla sitt samtycke <i>(kräver att alternativet ”Avvisa samtycke” är aktiverat)</i>."
+
+#: includes/settings.php:682
+msgid "The code to be used in your site footer, before the closing body tag."
+msgstr "Koden som ska användas i sidfoten för din webbplats, före taggen &gt;/body&lt;."
+
+#: includes/settings.php:678
+msgid "The code to be used in your site header, before the closing head tag."
+msgstr "Koden som ska användas i html-huvudet för din webbplats, före taggen &gt;/head&lt;."
+
+#: includes/settings.php:675
+msgid "Body"
+msgstr "BODY"
+
+#: includes/settings.php:674
+msgid "Head"
+msgstr "HEAD"
+
+#: includes/settings.php:509
+msgid "Button class"
+msgstr "Klass för knapp"
+
+#: includes/settings.php:374 includes/settings.php:492
+msgid "Privacy policy"
+msgstr "Integritetspolicy"
+
+#: includes/settings.php:86
+msgid "An hour"
+msgstr "En timme"
+
+#: includes/settings.php:60
+msgid "Manual"
+msgstr "Manuellt"
+
+#: includes/settings.php:59
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: includes/settings.php:721
+msgid "Enable to reload the page after the notice is accepted."
+msgstr "Aktivera för att ladda om sidan när notisen har accepterats."
+
+#: includes/settings.php:496
+msgid "Reloading"
+msgstr "Laddar om"
+
+#: includes/settings.php:686
+msgid "To get the user consent status use the <code>cn_cookies_accepted()</code> function."
+msgstr "Använd funktionen <code>cn_cookies_accepted()</code> för att hämta status för användarens samtycke."
+
+#: includes/settings.php:495
+msgid "Script blocking"
+msgstr "Skriptblockering"
+
+#: includes/settings.php:1178
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Är du säker på att du vill återställa dessa inställningar till standard?"
+
+#: cookie-notice.php:469
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/settings.php:1151
+msgid "Settings restored to defaults."
+msgstr "Inställningar återställda till standard."
+
+#: includes/settings.php:870
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Välj var alla tilläggets skript ska placeras."
+
+#: includes/settings.php:786
+msgid "Enter the full URL starting with http(s)://"
+msgstr "Ange den fullständiga URL:en som börjar med http(s)://"
+
+#: includes/settings.php:773
+msgid "Select from one of your site's pages."
+msgstr "Välj någon av webbplatsens sidor."
+
+#: includes/settings.php:762
+msgid "-- select page --"
+msgstr "-- välj sida --"
+
+#: includes/settings.php:686
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after the notice is accepted."
+msgstr "Lägga in Javascript-kod för cookies som inte är nödvändiga för webbplatsens funktion (exempelvis Google Analytics) för att koden ska användas efter att notisen har accepterats."
+
+#: includes/settings.php:652
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Aktivera att användaren får möjlighet att neka icke-funktionella cookies från tredje part."
+
+#: includes/settings.php:631
+msgid "Enter the cookie notice message."
+msgstr "Ange notismeddelandet för cookien."
+
+#: includes/settings.php:946
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Aktivera om du vill att all data ska tas bort vid avaktivering av tillägget."
+
+#: includes/settings.php:510
+msgid "Colors"
+msgstr "Färger"
+
+#: includes/settings.php:508
+msgid "Button style"
+msgstr "Knappstil"
+
+#: includes/settings.php:507
+msgid "Animation"
+msgstr "Animation"
+
+#: includes/settings.php:506
+msgid "Position"
+msgstr "Position"
+
+#: includes/settings.php:480 includes/settings.php:502
+msgid "Deactivation"
+msgstr "Avaktivering"
+
+#: includes/settings.php:479 includes/settings.php:501
+msgid "Script placement"
+msgstr "Skriptplacering"
+
+#: includes/settings.php:497
+msgid "On scroll"
+msgstr "Vid rullning"
+
+#: includes/settings.php:491
+msgid "Button text"
+msgstr "Knapptext"
+
+#: includes/settings.php:75 includes/settings.php:490
+msgid "Message"
+msgstr "Meddelande"
+
+#: includes/settings.php:453
+msgid "Reset to defaults"
+msgstr "Återställ till standard"
+
+#: includes/settings.php:409
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: includes/settings.php:371
+msgid "No"
+msgstr "Nej"
+
+#: includes/settings.php:370
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/settings.php:369
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Vi använder cookies för att se till att vi ger dig den bästa upplevelsen på vår webbplats. Om du fortsätter att använda denna webbplats kommer vi att anta att du godkänner detta."
+
+#: includes/settings.php:105
+msgid "Footer"
+msgstr "Sidfot"
+
+#: includes/settings.php:104
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: includes/settings.php:100
+msgid "Slide"
+msgstr "Glid"
+
+#: includes/settings.php:99
+msgid "Fade"
+msgstr "Tona"
+
+#: includes/settings.php:93
+msgid "infinity"
+msgstr "oändligt"
+
+#: includes/settings.php:92
+msgid "1 year"
+msgstr "1 år"
+
+#: includes/settings.php:91
+msgid "6 months"
+msgstr "6 månader"
+
+#: includes/settings.php:90
+msgid "3 months"
+msgstr "3 månader"
+
+#: includes/settings.php:89
+msgid "1 month"
+msgstr "1 månad"
+
+#: includes/settings.php:88
+msgid "1 week"
+msgstr "1 vecka"
+
+#: includes/settings.php:87
+msgid "1 day"
+msgstr "1 dag"
+
+#: includes/settings.php:80
+msgid "Bar color"
+msgstr "Listfärg"
+
+#: includes/settings.php:79
+msgid "Text color"
+msgstr "Textfärg"
+
+#: includes/settings.php:64
+msgid "Page link"
+msgstr "Sidlänk"
+
+#: includes/settings.php:65
+msgid "Custom link"
+msgstr "Anpassad länk"
+
+#: includes/settings.php:53 includes/settings.php:98
+msgid "None"
+msgstr "Ingen"
+
+#: includes/welcome.php:357 includes/settings.php:49
+msgid "Bottom"
+msgstr "Botten"
+
+#: includes/welcome.php:358 includes/settings.php:48
+msgid "Top"
+msgstr "Toppen"

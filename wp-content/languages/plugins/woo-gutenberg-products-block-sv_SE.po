@@ -1,0 +1,727 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-12 07:59:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: src/StoreApi/Utilities/OrderController.php:273
+msgid "billing address"
+msgstr "faktureringsadress"
+
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:142
+msgid "Country is required"
+msgstr "Land är obligatoriskt"
+
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:175
+msgid "The provided postcode / ZIP is not valid"
+msgstr "Det angivna postnumret är inte giltigt"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:93
+msgid "The provided phone number is not valid"
+msgstr "Det angivna telefonnumret är inte giltigt "
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:86
+msgid "The provided email address is not valid"
+msgstr "Den angivna e-postadressen är inte giltig"
+
+#. translators: %s Field label.
+#: src/StoreApi/Utilities/OrderController.php:360
+msgid "%s is required"
+msgstr "%s är obligatoriskt"
+
+#: src/StoreApi/Utilities/OrderController.php:191
+msgid "A valid email address is required"
+msgstr "En giltig e-postadress är obligatorisk"
+
+#. translators: %s: Customer username
+#: templates/emails/plain/customer-new-account-blocks.php:19
+msgid "Hi %s,"
+msgstr "Hej %s, "
+
+#: templates/emails/customer-new-account-blocks.php:21
+msgid "Click here to set your new password."
+msgstr "Klicka här för att ställa in ditt lösenord."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:86
+msgid "Welcome to {site_title}"
+msgstr "Välkommen till {site_title}"
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:59
+msgid "New account"
+msgstr "Nytt konto"
+
+#. translators: %s: Customer username
+#: templates/emails/customer-new-account-blocks.php:17
+msgid "Hello %s,"
+msgstr "Hej %s,"
+
+#: templates/emails/plain/customer-new-account-blocks.php:24
+msgid "To set your password, visit the following address: "
+msgstr "För att ställa in ditt lösenord, besök följande adress:"
+
+#: src/StoreApi/Routes/Checkout.php:621
+msgid "Please provide a valid email address."
+msgstr "Ange en giltig e-postadress."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:174
+msgid "We look forward to seeing you soon."
+msgstr "Vi ser fram emot att se dig snart."
+
+#: src/Domain/Services/Email/CustomerNewAccount.php:76
+msgid "Your {site_title} account has been created!"
+msgstr "Ditt {site_title} konto har skapats!"
+
+#: src/StoreApi/Schemas/ProductSchema.php:199
+msgid "Category name"
+msgstr "Kategorinamn"
+
+#: src/StoreApi/Schemas/ProductSchema.php:211
+msgid "Category link"
+msgstr "Kategorilänk"
+
+#: src/StoreApi/Schemas/ProductSchema.php:342
+msgid "The assigned attribute."
+msgstr "Det tilldelade attributet."
+
+#: src/StoreApi/Schemas/ProductSchema.php:329
+msgid "List of variation attributes."
+msgstr "Lista över variationsattribut."
+
+#: src/StoreApi/Schemas/ProductSchema.php:292
+msgid "The term ID, or 0 if the attribute is not a global attribute."
+msgstr "Termens ID eller 0 om attributet inte är ett globalt attribut."
+
+#: src/StoreApi/Schemas/ProductSchema.php:273
+msgid "The attribute taxonomy, or null if the attribute is not taxonomy based."
+msgstr "Attributets taxonomi eller noll om attributet inte är taxonomibaserat."
+
+#: src/StoreApi/Schemas/ProductSchema.php:267
+#: src/StoreApi/Schemas/ProductSchema.php:336
+msgid "The attribute name."
+msgstr "Attributets namn."
+
+#: src/StoreApi/Schemas/ProductSchema.php:261
+#: src/StoreApi/Schemas/ProductSchema.php:323
+msgid "The attribute ID, or 0 if the attribute is not taxonomy based."
+msgstr "Attributets ID eller 0 om attributet inte är taxonomibaserat."
+
+#: src/StoreApi/Schemas/ProductSchema.php:254
+msgid "List of attributes assigned to the product/variation that are visible or used for variations."
+msgstr "Lista över attribut som har tilldelats till produkten/variationen som är synlig eller används för variationer."
+
+#: src/StoreApi/Schemas/ProductSchema.php:245
+msgid "Tag link"
+msgstr "Etikettlänk"
+
+#: src/StoreApi/Utilities/OrderController.php:331 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:83
+msgid "Country/Region"
+msgstr "Land/region"
+
+#: src/Assets.php:187
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#. translators: %s: number of orders
+#: src/Domain/Services/DraftOrders.php:132
+msgid "Drafts <span class=\"count\">(%s)</span>"
+msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+msgstr[0] "Utkast <span class=\"count\">(%s)</span>"
+msgstr[1] "Utkast <span class=\"count\">(%s)</span>"
+
+#: src/Domain/Services/DraftOrders.php:102
+#: src/Domain/Services/DraftOrders.php:126
+msgctxt "Order status"
+msgid "Draft"
+msgstr "Utkast"
+
+#: src/BlockTypes/Checkout.php:287
+msgid "Credit card"
+msgstr "Kreditkort"
+
+#: src/Payments/Integrations/Stripe.php:252
+msgid "Diners"
+msgstr "Diners"
+
+#: src/Payments/Integrations/Stripe.php:248
+msgid "JCB"
+msgstr "JCB"
+
+#: src/Payments/Integrations/Stripe.php:244
+msgid "Discover"
+msgstr "Discover"
+
+#: src/Payments/Integrations/Stripe.php:237
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/Payments/Integrations/Stripe.php:233
+msgid "American Express"
+msgstr "American Express"
+
+#: src/Payments/Integrations/Stripe.php:229
+msgid "Visa"
+msgstr "Visa"
+
+#: src/StoreApi/Routes/CartUpdateCustomer.php:55
+#: src/StoreApi/Schemas/CheckoutSchema.php:103
+msgid "Shipping address."
+msgstr "Leveransadress."
+
+#: src/StoreApi/Routes/CartUpdateCustomer.php:47
+#: src/StoreApi/Schemas/CheckoutSchema.php:92
+msgid "Billing address."
+msgstr "Faktureringsadress."
+
+#: src/StoreApi/Schemas/ErrorSchema.php:39
+msgid "Error message"
+msgstr "Felmeddelande"
+
+#: src/StoreApi/Schemas/ErrorSchema.php:33
+msgid "Error code"
+msgstr "Felkod"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:46 build/checkout.js:1
+#: build/checkout-frontend.js:14
+#: assets/js/blocks/cart-checkout/checkout/form/phone-number/index.js:25
+#: assets/js/blocks/cart-checkout/checkout/edit.js:142
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/StoreApi/Schemas/BillingAddressSchema.php:40
+msgid "Email"
+msgstr "E-post"
+
+#: src/StoreApi/Utilities/OrderController.php:343
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:66 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:115
+msgid "Postal code"
+msgstr "Postnummer"
+
+#: src/StoreApi/Utilities/OrderController.php:335
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:54 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:94
+msgid "City"
+msgstr "Ort"
+
+#: src/StoreApi/Utilities/OrderController.php:323
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:42 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:59
+msgid "Address"
+msgstr "Adress"
+
+#: src/StoreApi/Utilities/OrderController.php:319
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:36 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:47
+#: assets/js/blocks/cart-checkout/checkout/edit.js:106
+msgid "Company"
+msgstr "Företag"
+
+#: src/StoreApi/Utilities/OrderController.php:315
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:30 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:35
+msgid "Last name"
+msgstr "Efternamn"
+
+#: src/StoreApi/Utilities/OrderController.php:311
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:24 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:23
+msgid "First name"
+msgstr "Förnamn"
+
+#: src/StoreApi/Routes/CartRemoveCoupon.php:58
+msgid "Invalid coupon code."
+msgstr "Ogiltig rabattkod."
+
+#: src/StoreApi/Routes/CartApplyCoupon.php:50
+#: src/StoreApi/Routes/CartRemoveCoupon.php:50
+#: src/StoreApi/Routes/CartCoupons.php:82
+msgid "Coupons are disabled."
+msgstr "Rabattkoder är inaktiverade."
+
+#: src/Payments/Integrations/Stripe.php:162 build/wc-payment-method-stripe.js:1
+msgid "Credit / Debit Card"
+msgstr "Kredit/betalkort"
+
+#: src/StoreApi/Schemas/CartSchema.php:279
+msgid "The name of the tax."
+msgstr "Namn på momsen."
+
+#: src/StoreApi/Schemas/CartSchema.php:259
+msgid "Total price the customer will pay."
+msgstr "Totalt pris pris kunden kommer betala."
+
+#: src/StoreApi/Schemas/CartSchema.php:229
+msgid "Total tax on fees."
+msgstr "Total moms på avgifter."
+
+#: src/StoreApi/Schemas/AbstractSchema.php:208
+msgid "Currency code (in ISO format) for returned prices."
+msgstr "Valutakod (i ISO-format) för returnerade priser."
+
+#: src/StoreApi/Utilities/OrderController.php:327
+#: src/StoreApi/Schemas/AbstractAddressSchema.php:48 build/checkout.js:1
+#: build/cart-frontend.js:6 build/checkout-frontend.js:6 build/cart.js:1
+#: assets/js/base/components/cart-checkout/address-form/default-address-fields.js:71
+#: assets/js/blocks/cart-checkout/checkout/edit.js:130
+msgid "Apartment, suite, etc."
+msgstr "Lägenhet, våning etc."
+
+#: src/StoreApi/Routes/Checkout.php:547
+msgid "No payment method provided."
+msgstr "Ingen betalningsmetod angiven."
+
+#: src/StoreApi/Routes/CartSelectShippingRate.php:60
+msgid "Invalid Package ID."
+msgstr "Ogiltigt paket-ID."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:69
+msgid "Sort ascending or descending."
+msgstr "Sortera stigande eller fallande."
+
+#: src/StoreApi/Routes/ProductCategoriesById.php:59
+msgid "Invalid category ID."
+msgstr "Ogiltigt kategori-ID."
+
+#. translators: %s: product name
+#: src/StoreApi/Utilities/CartController.php:960
+msgid "&quot;%s&quot; is not available for purchase."
+msgstr "&quot;%s&quot; är inte tillgänglig för köp."
+
+#. translators: %s coupon code
+#: src/StoreApi/Utilities/CartController.php:786
+msgid "\"%s\" is an invalid coupon code."
+msgstr "”%s” är en ogiltig rabattkod."
+
+#: src/StoreApi/Utilities/OrderController.php:26
+msgid "Cannot create order from empty cart."
+msgstr "Kan inte skapa beställning från tom varukorg."
+
+#: src/StoreApi/Schemas/CartSchema.php:235
+msgid "Total discount from applied coupons."
+msgstr "Total rabatt från tillämpade rabattkuponger."
+
+#: src/StoreApi/Schemas/CartSchema.php:223
+msgid "Total price of any applied fees."
+msgstr "Totalt pris för alla eventuellt pålagda avgifter."
+
+#. translators: %s number of products in cart.
+#: src/BlockTypes/ProductCategories.php:359
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d produkt"
+msgstr[1] "%d produkter"
+
+#: src/BlockTypes/AbstractProductGrid.php:424
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:53
+msgid "Product on sale"
+msgstr "Produkt på rea"
+
+#: src/BlockTypes/ProductCategories.php:204
+msgid "List of categories with their product counts"
+msgstr "Lista med kategorier med deras produktantal."
+
+#: src/StoreApi/Routes/ProductCollectionData.php:158
+msgid "Taxonomy name."
+msgstr "Taxonominamn."
+
+#: src/BlockTypes/AbstractProductGrid.php:423
+#: build/atomic-block-components/image-frontend.js:1
+#: build/atomic-block-components/sale-badge-frontend.js:1
+#: build/atomic-block-components/sale-badge.js:1 build/all-products.js:1
+#: assets/js/atomic/blocks/product-elements/sale-badge/block.js:52
+msgid "Sale"
+msgstr "Rea"
+
+#: src/StoreApi/Schemas/ProductSchema.php:402
+msgid "Button text."
+msgstr "Knapptext."
+
+#. translators: %s: Attribute name.
+#: src/StoreApi/Utilities/CartController.php:1067
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s är ett obligatoriskt fält"
+msgstr[1] "%s är obligatoriska fält"
+
+#: src/StoreApi/Schemas/CartItemSchema.php:209
+#: src/StoreApi/Schemas/CartItemSchema.php:215
+#: src/StoreApi/Schemas/ProductSchema.php:142
+#: src/StoreApi/Schemas/ProductSchema.php:148
+msgid "Price amount."
+msgstr "Prisbelopp."
+
+#: src/StoreApi/Routes/ProductAttributesById.php:59
+msgid "Invalid attribute ID."
+msgstr "Ogiltigt attribut-ID."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/StoreApi/Utilities/CartController.php:1052
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Ogiltigt värde publicerat för %1$s. Tillåtna värden: %2$s"
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:53
+msgid "Attribute does not exist."
+msgstr "Attribut finns inte."
+
+#: src/StoreApi/Routes/ProductAttributeTerms.php:28
+msgid "Unique identifier for the attribute."
+msgstr "Unikt ID för attributet."
+
+#: src/StoreApi/Routes/ProductsById.php:59
+msgid "Invalid product ID."
+msgstr "Ogiltig produkt-ID."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:87
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/product-sort-select/index.js:34
+#: assets/js/blocks/products/edit.js:46
+msgid "Average rating"
+msgstr "Genomsnittligt betyg"
+
+#: src/StoreApi/Schemas/ProductSchema.php:408
+msgid "Button description."
+msgstr "Knappbeskrivning."
+
+#: src/StoreApi/Schemas/ProductSchema.php:366
+msgid "Is the product in stock?"
+msgstr "Finns produkten i lager?"
+
+#: src/StoreApi/Schemas/ProductSchema.php:360
+msgid "Is the product purchasable?"
+msgstr "Kan produkten köpas?"
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:54
+msgid "Thumbnail sizes for responsive images."
+msgstr "Miniatyrstorlekar för responsiva bilder."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:43
+msgid "Thumbnail URL."
+msgstr "Miniatyr-URL."
+
+#: src/StoreApi/Schemas/ProductSchema.php:99
+msgid "Is the product on sale?"
+msgstr "Är produkten på rea?"
+
+#: src/StoreApi/Utilities/CartController.php:920
+#: src/StoreApi/Utilities/CartController.php:1169
+msgid "This product cannot be added to the cart."
+msgstr "Denna produkt kan inte läggas till i varukorgen."
+
+#: woocommerce-gutenberg-products-block.php:58
+msgid "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "WooCommerce Blocks kräver en senare version av WordPress och har pausats. Uppdatera WordPress för att fortsätta att använda WooCommerce Blocks."
+
+#: src/StoreApi/Routes/CartAddItem.php:60
+#: src/StoreApi/Schemas/CartItemSchema.php:139
+msgid "Variation attribute value."
+msgstr "Variationsattributvärde."
+
+#: src/StoreApi/Routes/CartAddItem.php:55
+#: src/StoreApi/Schemas/CartItemSchema.php:133
+msgid "Variation attribute name."
+msgstr "Variationsattributnamn."
+
+#: src/StoreApi/Routes/CartAddItem.php:48
+#: src/StoreApi/Schemas/CartItemSchema.php:125
+msgid "Chosen attributes (for variations)."
+msgstr "Valda attribut (för variationer)."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:78
+msgid "Stock keeping unit, if applicable."
+msgstr "Lagerhållningsenhet, om tillämpligt."
+
+#: src/StoreApi/Schemas/CartSchema.php:169
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Total vikt (i gram) för alla produkter i varukorgen."
+
+#: src/StoreApi/Schemas/CartSchema.php:153
+msgid "List of cart items."
+msgstr "Lista med varukorgsartiklar."
+
+#: src/StoreApi/Schemas/CartSchema.php:163
+msgid "Number of items in the cart."
+msgstr "Antal artiklar i varukorgen."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:51
+msgid "Attribute type."
+msgstr "Attributtyp."
+
+#: src/StoreApi/Schemas/TermSchema.php:63
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Antal objekt (inlägg av alla typer) som tilldelats termen."
+
+#: src/StoreApi/Schemas/TermSchema.php:51
+msgid "Term description."
+msgstr "Termbeskrivning."
+
+#: src/StoreApi/Schemas/TermSchema.php:45
+msgid "String based identifier for the term."
+msgstr "Strängbaserad identifierare för termen."
+
+#: src/StoreApi/Utilities/CartController.php:127
+#: src/StoreApi/Routes/CartItemsByKey.php:66
+#: src/StoreApi/Routes/CartItemsByKey.php:104
+msgid "Cart item does not exist."
+msgstr "Varukorgsartikeln finns inte."
+
+#: src/StoreApi/Routes/Products.php:377
+msgid "Limit result set to products with a certain average rating."
+msgstr "Begränsa resultatuppsättningen till produkter med ett visst genomsnittligt betyg."
+
+#: src/StoreApi/Routes/ProductReviews.php:157
+#: src/StoreApi/Routes/AbstractTermsRoute.php:24
+#: src/StoreApi/Routes/Products.php:108
+msgid "Current page of the collection."
+msgstr " Nuvarande sida av samlingen."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:70
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:93
+msgid "Number of products."
+msgstr "Antal produkter."
+
+#: src/StoreApi/Schemas/ProductCollectionDataSchema.php:64
+msgid "Term ID"
+msgstr "Term-ID"
+
+#: src/StoreApi/Utilities/CartController.php:1092
+msgid "No matching variation found."
+msgstr "Ingen matchande variation hittades."
+
+#: src/StoreApi/Utilities/CartController.php:620
+msgid "Unable to retrieve cart."
+msgstr "Kan inte hämta varukorg."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:42
+#: src/StoreApi/Routes/Products.php:127
+msgid "Limit results to those matching a string."
+msgstr "Begränsa resultaten till de som matchar en sträng."
+
+#: src/StoreApi/Routes/Products.php:251
+msgid "Limit result set to featured products."
+msgstr "Begränsa resultatet inställt på utvalda produkter."
+
+#: src/StoreApi/Routes/Products.php:236
+msgid "Limit result set to products assigned a specific type."
+msgstr "Begränsa resultatet inställt på produkter tilldelade en specifik typ."
+
+#: src/StoreApi/Routes/AbstractTermsRoute.php:59
+#: src/StoreApi/Routes/Products.php:171
+msgid "Limit result set to specific ids."
+msgstr "Begränsa resultatet inställt på specifika ID:n."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:191
+#: src/StoreApi/Schemas/CartItemSchema.php:241
+#: src/StoreApi/Schemas/ProductSchema.php:124
+msgid "Regular product price."
+msgstr "Ordinarie produktpris."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:66
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "Datumet då recensionen skapades, i webbplatsens tidszon och ett format som är läsbart för människor."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:91
+msgid "Permalink of the product that the review belongs to."
+msgstr "Permalänk för produkten som recensionen tillhör."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:97
+msgid "Image of the product that the review belongs to."
+msgstr "Bild på produkten som recensionen tillhör."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:85
+msgid "Name of the product that the review belongs to."
+msgstr "Namn på produkten som recensionen tillhör."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:79
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Unik identifierare för produkten som recensionen tillhör."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:110
+msgid "The content of the review."
+msgstr "Recensionens innehåll."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:125
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Visar om recensenten köpte produkten eller inte."
+
+#: src/StoreApi/Routes/ProductReviews.php:191
+#: src/StoreApi/Routes/Products.php:196
+msgid "Sort collection by object attribute."
+msgstr "Sortera samlingen efter objektattribut."
+
+#: src/StoreApi/Routes/ProductReviews.php:183
+#: src/StoreApi/Routes/Products.php:188
+msgid "Order sort attribute ascending or descending."
+msgstr "Sortera sorteringsattribut stigande eller fallande."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:66
+msgid "Category URL."
+msgstr "Kategori-URL."
+
+#: src/StoreApi/Schemas/ProductSchema.php:77
+msgid "Product variation attributes, if applicable."
+msgstr "Produktvariationsattribut, om tillämpligt."
+
+#: src/StoreApi/Routes/Products.php:281
+msgid "Operator to compare product tags."
+msgstr "Operator för att jämföra produktetiketter."
+
+#: src/StoreApi/Routes/Products.php:369
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Bestämmer om dolda eller synliga katalogprodukter visas."
+
+#: src/BlockTypes/ProductCategories.php:212
+#: src/BlockTypes/ProductCategories.php:216
+msgid "Select a category"
+msgstr "Välj en kategori"
+
+#: src/BlockTypes/ProductCategories.php:224
+msgid "Go to category"
+msgstr "Gå till kategori"
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:69
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Antal termer i attributets taxonomi."
+
+#. translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:127
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "WooCommerce Blocks utvecklingsläge kräver att filer byggs. Från tilläggs-katalogen kör %1$s för att installera beroenden, %2$s för att bygga filerna eller %3$s för att bygga filerna och titta efter ändringar."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blocks"
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "WooCommerce-block för Gutenberg-redigeraren."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:32
+msgid "Image ID."
+msgstr "Bild-ID."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:59
+msgid "Image name."
+msgstr "Bildnamn."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:195
+msgid "Meta key."
+msgstr "Metanyckel."
+
+#: src/StoreApi/Schemas/ProductSchema.php:71
+msgid "Product type."
+msgstr "Produkttyp."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:60
+#: src/StoreApi/Schemas/ProductSchema.php:60
+msgid "Product name."
+msgstr "Produktnamn."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:185
+#: src/StoreApi/Schemas/CartItemSchema.php:235
+#: src/StoreApi/Schemas/ProductSchema.php:118
+msgid "Current product price."
+msgstr "Nuvarande produktpris."
+
+#: src/StoreApi/Schemas/ProductSchema.php:105
+msgid "Unique identifier."
+msgstr "Unikt ID-sträng."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:108
+#: src/StoreApi/Schemas/ProductSchema.php:82
+msgid "Product URL."
+msgstr "Produktens URL."
+
+#: src/StoreApi/Routes/ProductsById.php:28
+#: src/StoreApi/Routes/ProductAttributesById.php:28
+#: src/StoreApi/Routes/ProductCategoriesById.php:28
+#: src/StoreApi/Schemas/TermSchema.php:33
+#: src/StoreApi/Schemas/ProductReviewSchema.php:53
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:33
+#: src/StoreApi/Schemas/ProductSchema.php:54
+msgid "Unique identifier for the resource."
+msgstr "Unik ID-sträng för resursen."
+
+#: src/StoreApi/Schemas/ProductSchema.php:165
+msgid "Reviews average rating."
+msgstr "Genomsnittligt betyg för recensioner."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:115
+#: src/StoreApi/Schemas/ProductSchema.php:177
+msgid "List of images."
+msgstr "Lista på bilder."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:39
+msgid "Attribute name."
+msgstr "Attributnamn."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:201
+msgid "Meta value."
+msgstr "Metavärde."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:64
+msgid "Image alternative text."
+msgstr "bild alternativtext."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:59
+msgid "The date the review was created, in the site's timezone."
+msgstr "Datumet då recensionen skapades, i webbplatsens tidszon."
+
+#: src/StoreApi/Schemas/ProductReviewSchema.php:72
+msgid "The date the review was created, as GMT."
+msgstr "Datumet då recensionen skapades, som GMT."
+
+#: src/BlockTypes/ProductCategories.php:203
+msgid "List of categories"
+msgstr "Lista på kategorier"
+
+#: src/StoreApi/Schemas/ProductSchema.php:171
+msgid "Amount of reviews that the product has."
+msgstr "Antal recensioner som produkten har."
+
+#: src/StoreApi/Schemas/ProductCategorySchema.php:53
+msgid "Category image."
+msgstr "Kategoribild."
+
+#: src/StoreApi/Schemas/ProductSchema.php:193
+msgid "Category ID"
+msgstr "Kategori-ID"
+
+#: src/StoreApi/Schemas/ProductSchema.php:227
+msgid "Tag ID"
+msgstr "Etikett-ID"
+
+#: src/StoreApi/Schemas/ProductSchema.php:233
+msgid "Tag name"
+msgstr "Etikettnamn"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
